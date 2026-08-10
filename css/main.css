@@ -286,10 +286,9 @@ body {
   margin-bottom: -1.75rem;
 }
 .section-divider--footer {
-  margin-bottom: 0;
-}
-.section-divider--footer .section-divider__number {
-  background-color: var(--white);
+  margin-bottom: -1.75rem;
+  position: relative;
+  z-index: 10;
 }
 
 .features {
@@ -386,5 +385,90 @@ body {
 @media (min-width: 1100px) {
   .features__description {
     font-size: 1.125rem;
+  }
+}
+
+footer {
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgba(77, 150, 169, 0.9) 0%, rgba(77, 150, 169, 0.9) 60%), url("../assets/desktop/image-footer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: var(--white);
+  position: relative;
+  text-align: center;
+  padding: var(--space-800) var(--space-400) var(--space-800) var(--space-400);
+  margin: 0;
+}
+@media (min-width: 1100px) {
+  footer {
+    padding: var(--space-1400) var(--space-1000) var(--space-1400) var(--space-1000);
+  }
+}
+footer .section-divider {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 0;
+  width: auto;
+}
+footer .section-divider__line {
+  height: var(--space-1000);
+}
+
+.main-footer__container {
+  width: 19.4375rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+}
+@media (min-width: 768px) {
+  .main-footer__container {
+    width: 31.5rem;
+  }
+}
+@media (min-width: 1100px) {
+  .main-footer__container {
+    width: 70rem;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    align-items: flex-start;
+    padding: 0 var(--space-400);
+  }
+}
+
+.main-footer__title {
+  font-size: var(--space-400);
+  font-weight: 900;
+  line-height: 1.1;
+  margin-bottom: var(--space-300);
+}
+@media (min-width: 768px) {
+  .main-footer__title {
+    font-size: 2.25rem;
+  }
+}
+@media (min-width: 1100px) {
+  .main-footer__title {
+    width: 27.8125rem;
+    font-size: var(--space-500);
+    margin-bottom: 0;
+  }
+}
+
+.main-footer__description {
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: var(--space-300);
+}
+@media (min-width: 1100px) {
+  .main-footer__description {
+    font-size: 1.125rem;
+    width: 22.1875rem;
+    margin-bottom: 0;
   }
 }/*# sourceMappingURL=main.css.map */

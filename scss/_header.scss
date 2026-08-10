@@ -176,10 +176,8 @@
     }
 
     &--footer {
-        margin-bottom: 0;
-
-        .section-divider__number {
-            background-color: var(--white);
-        }
+        margin-bottom: -1.75rem;
+        position: relative;
+        z-index: 10;
     }
 }
