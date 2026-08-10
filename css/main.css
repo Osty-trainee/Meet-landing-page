@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Red Hat Display";
+  font-weight: 500;
+  font-style: normal;
+  src: url("../fonts/RedHatDisplay-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Red Hat Display";
+  font-weight: 900;
+  font-style: normal;
+  src: url("../fonts/RedHatDisplay-Black.woff2") format("woff2");
+}
+:root {
+  --cyan-600: hsl(192, 37%, 48%);
+  --cyan-300: hsl(192, 90%, 77%);
+  --purple-600: hsl(268, 34%, 53%);
+  --purple-300: hsl(268, 100%, 86%);
+  --slate-900: hsl(240, 21%, 20%);
+  --slate-600: hsl(240, 10%, 57%);
+  --slate-300: hsl(240, 18%, 85%);
+  --white: hsl(0, 0%, 98%);
+  --space-1400: 7rem;
+  --space-1000: 5rem;
+  --space-900: 4.5rem;
+  --space-800: 4rem;
+  --space-700: 3.5rem;
+  --space-500: 2.5rem;
+  --space-400: 2rem;
+  --space-300: 1.5rem;
+  --space-200: 1rem;
+  --space-100: 0.5rem;
+  --space-50: 0.25rem;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */
