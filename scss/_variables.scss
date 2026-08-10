@@ -1,0 +1,30 @@
+//Colors
+:root {
+    --cyan-600: hsl(192, 37%, 48%);
+    --cyan-300: hsl(192, 90%, 77%);
+
+    --purple-600: hsl(268, 34%, 53%);
+    --purple-300: hsl(268, 100%, 86%);
+
+    --slate-900: hsl(240, 21%, 20%);
+    --slate-600: hsl(240, 10%, 57%);
+    --slate-300: hsl(240, 18%, 85%);
+
+    --white: hsl(0, 0%, 98%);
+
+    //SCSS variable for spacing
+    --space-1400: 7rem;  //112px
+    --space-1000: 5rem;  //80px
+    --space-900: 4.5rem; //72px
+    --space-800: 4rem;   //64px
+    --space-700: 3.5rem; //56px
+    --space-500: 2.5rem; //40px
+    --space-400: 2rem;   //32px
+    --space-300: 1.5rem; //24px
+    --space-200: 1rem;   //16px
+    --space-100: 0.5rem; //8px
+    --space-50: 0.25rem; //4px
+}
+
+//SCSS variable for our font family
+$font-main: 'Red Hat Display', sans-serif;
